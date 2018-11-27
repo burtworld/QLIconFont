@@ -9,11 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "QLIconFontGenerater.h"
 
+#import "UILabel+QLIconFont.h"
 @interface UIImage (QLIconFont)
 /**
  使用字体包装类转换成图片
  
  @param info 字体信息类实体
+ @param paintSize 画布大小
  @return img
  */
 + (UIImage *)imageWithIconInfo:(QLIconFontInfo *)info;

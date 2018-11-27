@@ -17,8 +17,10 @@
         if (path != nil) {
             _path = path;
         }else{
-            NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"QLIconFont" ofType:@"bundle"];
-            NSString *ttfPath = [[NSBundle bundleWithPath:bundlePath] pathForResource:@"iconfont" ofType:@"ttf"];
+            NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+            NSURL *bundleURL = [bundle URLForResource:@"QLIconFont" withExtension:@"bundle"];
+            NSBundle *resourceBundle = bundleURL == nil ? [NSBundle mainBundle] : [NSBundle bundleWithURL: bundleURL];
+            NSString *ttfPath = [resourceBundle pathForResource:@"iconfont" ofType:@"ttf"];
             _path = ttfPath;
         }
     }
