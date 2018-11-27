@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "QLIconFont"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "iconfont工具，如果有自己的图标库，直接替换资源文件即可"
 
   s.homepage     = "https://github.com/burtworld/QLIconFont.git"
