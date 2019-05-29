@@ -1,42 +1,51 @@
-#
-# Be sure to run `pod lib lint QLIconFont.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
-  s.name             = 'QLIconFont'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of QLIconFont.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.name         = "QLIconFont"
+  s.version      = "0.0.5"
+  s.summary      = "iconfont工具，如果有自己的图标库，直接替换资源文件即可"
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.homepage     = "https://github.com/burtworld/QLIconFont.git"
+  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
-  s.homepage         = 'https://github.com/Paramita/QLIconFont'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Paramita' => 'baqkoo007@aliyun.com' }
-  s.source           = { :git => 'https://github.com/Paramita/QLIconFont.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.license      = "MIT"
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-  s.source_files = 'QLIconFont/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'QLIconFont' => ['QLIconFont/Assets/*.png']
-  # }
+  s.author             = { "paramita" => "baqkoo007@aliyun.com" }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.platform     = :ios, "8.0"
+
+  s.source       = { :git => "https://github.com/burtworld/QLIconFont.git", :tag => "#{s.version}" }
+
+  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.exclude_files = "Classes/Exclude"
+
+  # s.public_header_files = "Classes/**/*.h"
+
+
+  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  #
+  #  A list of resources included with the Pod. These are copied into the
+  #  target bundle with a build phase script. Anything else will be cleaned.
+  #  You can preserve files from being cleaned, please don't preserve
+  #  non-essential files like tests, examples and documentation.
+  #
+
+  # s.resource  = "icon.png"
+  s.resources = "Asserts/*"
+
+  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
+
+  # s.framework  = "SomeFramework"
+  # s.frameworks = "SomeFramework", "AnotherFramework"
+
+  # s.library   = "iconv"
+  # s.libraries = "iconv", "xml2"
+
+  s.requires_arc = true
+
+  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  # s.dependency "JSONKit", "~> 1.4"
+
 end

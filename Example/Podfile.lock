@@ -1,0 +1,16 @@
+PODS:
+  - QLIconFont (0.0.5)
+
+DEPENDENCIES:
+  - QLIconFont (from `../`)
+
+EXTERNAL SOURCES:
+  QLIconFont:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QLIconFont: 2ed2e81fcac2a4473a4cac7e5ff339c18ba4b228
+
+PODFILE CHECKSUM: 193b9e40768b9c18d00d4d86780f198e4f379e85
+
+COCOAPODS: 1.6.1

@@ -1,29 +1,36 @@
 # QLIconFont
-
-[![CI Status](https://img.shields.io/travis/Paramita/QLIconFont.svg?style=flat)](https://travis-ci.org/Paramita/QLIconFont)
-[![Version](https://img.shields.io/cocoapods/v/QLIconFont.svg?style=flat)](https://cocoapods.org/pods/QLIconFont)
-[![License](https://img.shields.io/cocoapods/l/QLIconFont.svg?style=flat)](https://cocoapods.org/pods/QLIconFont)
-[![Platform](https://img.shields.io/cocoapods/p/QLIconFont.svg?style=flat)](https://cocoapods.org/pods/QLIconFont)
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-QLIconFont is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'QLIconFont'
-```
-
-## Author
-
-Paramita, baqkoo007@aliyun.com
-
-## License
-
-QLIconFont is available under the MIT license. See the LICENSE file for more info.
+QLIconFont工具
+## Introduce
+  使用IconFont可以在没有设计师的情况下，使用一些图标,资源当中包含了我所常用的一些从阿里下载的图标，若需要自己的图标集，只要替换资源即可。
+  
+## Usage
+  ```
+  QLIconFontInfo *info1 = [QLIconFontInfo iconInfoWithText:@"我的\U0000e644" size:14 color:[UIColor redColor]];
+  [self.lab setTextWithIconFontInfo:info1];
+  
+  [self.btn setTextWithIconFontInfo:info1 state:UIControlStateNormal];
+  
+  self.img.image = [UIImage imageWithIconInfo:info1];
+ ```
+  ## Example
+  
+  使用情况详见我的 [Demo仓库](https://github.com/burtworld/QLDemoProject).
+  里面还包含其他的库
+ 
+ 
+ ## Installation
+ 
+ QLIconFont is available through [CocoaPods](https://cocoapods.org). To install
+ it, simply add the following line to your Podfile:
+ 
+ ```ruby
+ pod 'QLIconFont'
+ ```
+ 
+ ## Author
+ 
+ paramita, baqkoo007@aliyun.com
+ 
+ ## License
+ 
+ QLIconFont is available under the MIT license. See the LICENSE file for more info.

@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1D6AD421BAD00E7DC655863A487046 /* UIButton+QLIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 500164CB8BEF0C1F16765920CF0259C7 /* UIButton+QLIconFont.m */; };
+		2D5BBDFBDEE05C82DF90F2EA18AADED7 /* QLIconFont-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BC420C549F1B2472C48115F3006BCF6 /* QLIconFont-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		331E9DD628240D8846A0EC4C42A4DF7E /* QLIconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 6762F4E43C35A8014983CC7E7B24635B /* QLIconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3953C4E92D37FE82811DF1D734467C64 /* Pods-QLIconFont_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1199391EF85A8AE8D2214C8276312122 /* Pods-QLIconFont_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43AEAAB6CDB5C61E4543611C89FF1184 /* QLIconFontInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3B9C0BD5CFAF6F931B317C0915DACC /* QLIconFontInfo.m */; };
+		4577076771DDD58E579C67402920065B /* Pods-QLIconFont_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47C8CD6D77794048A2CDC5761E81D2B2 /* Pods-QLIconFont_Tests-dummy.m */; };
+		45AC56A0F904FA59A4D50D7C73DE038C /* UILabel+QLIconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B819D370C0B9034942C4385B7A6AE170 /* UILabel+QLIconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F54EBEB22505BF391D7BDE8788BEA1A /* Pods-QLIconFont_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AD05B9D139972EF98C4DD0E4730114 /* Pods-QLIconFont_Example-dummy.m */; };
+		718CB6CA592DF62BC0B2EFA79FA6F534 /* QLIconFont-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0513696D20B7DFA3769FE7FBF932D8E9 /* QLIconFont-dummy.m */; };
+		7C1899292005A7D1780859E43C64DD68 /* QLIconFontGenerater.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F532C56D7991CBA5CEDC00C0ED89FD6 /* QLIconFontGenerater.m */; };
+		8577C880E93F9100A63AF8776CFF7401 /* UIImage+QLIconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CE57D7092F8D507856ABD39AC1B9CB7 /* UIImage+QLIconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		973A4E141C60054623032E51F13A3526 /* QLIconFontInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 6889B6562ECE15EDA7541AC68B212A94 /* QLIconFontInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C6E047C3BAF250B1B72107046E6ADCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9DA951B5563451F59334CA120D659382 /* UIButton+QLIconFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B40CF4DE9F70F429944F52C0E9939763 /* UIButton+QLIconFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F5748F41C4D660B801D9A5E4B94DA1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		A56C90814FC51D848597A4F85D5358C2 /* UILabel+QLIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F728912031BD645E9B024CDBCBEE20 /* UILabel+QLIconFont.m */; };
+		AD7CF691EC00866BEC7057B46DC9785F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		AF8DB57D73F6050F0297D599D9C8054E /* QLIconFontGenerater.h in Headers */ = {isa = PBXBuildFile; fileRef = B0BBF8094D9F6A090D7C652DF255A811 /* QLIconFontGenerater.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8F663926916A5B6AD535B82BA67ACCE /* UIImage+QLIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBE874AC6C8E27C813ACD1EC84C477B /* UIImage+QLIconFont.m */; };
+		CDBAAA924C5012E89F2487FE9D489EDC /* Pods-QLIconFont_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5432DC4210535A39E38858CCD0DF7AB /* Pods-QLIconFont_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		328130D09D59DFE90836B7B7BC9D0AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE21B8424C6133BFC529B0CB2591FEBD;
+			remoteInfo = "Pods-QLIconFont_Example";
+		};
+		3A5EFF3C126DC4343CA402AE9372D44F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 586F8B1F807B309A5A3011B3535ABC68;
+			remoteInfo = QLIconFont;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0513696D20B7DFA3769FE7FBF932D8E9 /* QLIconFont-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QLIconFont-dummy.m"; sourceTree = "<group>"; };
+		0BC420C549F1B2472C48115F3006BCF6 /* QLIconFont-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLIconFont-umbrella.h"; sourceTree = "<group>"; };
+		1199391EF85A8AE8D2214C8276312122 /* Pods-QLIconFont_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QLIconFont_Example-umbrella.h"; sourceTree = "<group>"; };
+		12D6F9EB83D40131FD2D066581308D9C /* Pods-QLIconFont_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QLIconFont_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B81F45D6273083488F0A7DB31C44DC8 /* Pods-QLIconFont_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLIconFont_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A33D249CC64CBE14A3AAFB2ADD64E36 /* Pods-QLIconFont_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QLIconFont_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3CE57D7092F8D507856ABD39AC1B9CB7 /* UIImage+QLIconFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+QLIconFont.h"; path = "QLIconFont/Classes/UIImage+QLIconFont.h"; sourceTree = "<group>"; };
+		3F532C56D7991CBA5CEDC00C0ED89FD6 /* QLIconFontGenerater.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLIconFontGenerater.m; path = QLIconFont/Classes/QLIconFontGenerater.m; sourceTree = "<group>"; };
+		40B58F43DF6148AD70056EC47371A82A /* Pods_QLIconFont_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QLIconFont_Example.framework; path = "Pods-QLIconFont_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C8CD6D77794048A2CDC5761E81D2B2 /* Pods-QLIconFont_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QLIconFont_Tests-dummy.m"; sourceTree = "<group>"; };
+		4DD283EE0EAE3460AA24FFBAC26CD7D3 /* Pods-QLIconFont_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLIconFont_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		500164CB8BEF0C1F16765920CF0259C7 /* UIButton+QLIconFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+QLIconFont.m"; path = "QLIconFont/Classes/UIButton+QLIconFont.m"; sourceTree = "<group>"; };
+		5AB631B2D95570ACAAA851A3956CBA32 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6205EF8FE3FD1E10C4E5F5337E811209 /* QLIconFont.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QLIconFont.framework; path = QLIconFont.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6762F4E43C35A8014983CC7E7B24635B /* QLIconFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLIconFont.h; path = QLIconFont/Classes/QLIconFont.h; sourceTree = "<group>"; };
+		6889B6562ECE15EDA7541AC68B212A94 /* QLIconFontInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLIconFontInfo.h; path = QLIconFont/Classes/QLIconFontInfo.h; sourceTree = "<group>"; };
+		6D64AA99BD60B0A4FE8EEB62272B1F53 /* Pods-QLIconFont_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLIconFont_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		78529CF3961CDFD4A8EE6C2034CD25D8 /* Pods-QLIconFont_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QLIconFont_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B43F683462CE2C2D3357EC589EC1F54 /* Pods-QLIconFont_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLIconFont_Tests-Info.plist"; sourceTree = "<group>"; };
+		8D600CC9F67B7E994BCE251B8B9B961F /* QLIconFont.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QLIconFont.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9461E84924162054CBC031104848643B /* QLIconFont.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLIconFont.xcconfig; sourceTree = "<group>"; };
+		9C89B84E67A8EC884A50012B1F33E64A /* QLIconFont.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QLIconFont.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F3C1C793D25AC1FA69F946323574CF8 /* QLIconFont-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QLIconFont-Info.plist"; sourceTree = "<group>"; };
+		A2F728912031BD645E9B024CDBCBEE20 /* UILabel+QLIconFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+QLIconFont.m"; path = "QLIconFont/Classes/UILabel+QLIconFont.m"; sourceTree = "<group>"; };
+		A3E5ACD6EC48239383A9108D33B1A7FD /* QLIconFont-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLIconFont-prefix.pch"; sourceTree = "<group>"; };
+		A5432DC4210535A39E38858CCD0DF7AB /* Pods-QLIconFont_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QLIconFont_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A73FE3A8A62D90EC090F71B631A0803B /* Pods_QLIconFont_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QLIconFont_Tests.framework; path = "Pods-QLIconFont_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF2E415A3D2ED5EC6D6E3744E5EE1E7 /* Pods-QLIconFont_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QLIconFont_Example.modulemap"; sourceTree = "<group>"; };
+		B0BBF8094D9F6A090D7C652DF255A811 /* QLIconFontGenerater.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QLIconFontGenerater.h; path = QLIconFont/Classes/QLIconFontGenerater.h; sourceTree = "<group>"; };
+		B40CF4DE9F70F429944F52C0E9939763 /* UIButton+QLIconFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+QLIconFont.h"; path = "QLIconFont/Classes/UIButton+QLIconFont.h"; sourceTree = "<group>"; };
+		B80AF4B0F310823F41C0431CAAF9F9F1 /* Pods-QLIconFont_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QLIconFont_Tests.modulemap"; sourceTree = "<group>"; };
+		B819D370C0B9034942C4385B7A6AE170 /* UILabel+QLIconFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+QLIconFont.h"; path = "QLIconFont/Classes/UILabel+QLIconFont.h"; sourceTree = "<group>"; };
+		BEBE874AC6C8E27C813ACD1EC84C477B /* UIImage+QLIconFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+QLIconFont.m"; path = "QLIconFont/Classes/UIImage+QLIconFont.m"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D25A7445BDC425C8478DE0033084709D /* Pods-QLIconFont_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLIconFont_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D744302C2080AA84F385A47D47A0098B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D899FE090A6BD4DCE7F752D367F8BE91 /* Pods-QLIconFont_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLIconFont_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E3CDE0092CC838F5CC1C661830819D3B /* Pods-QLIconFont_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLIconFont_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E6AD05B9D139972EF98C4DD0E4730114 /* Pods-QLIconFont_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QLIconFont_Example-dummy.m"; sourceTree = "<group>"; };
+		EF3B9C0BD5CFAF6F931B317C0915DACC /* QLIconFontInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QLIconFontInfo.m; path = QLIconFont/Classes/QLIconFontInfo.m; sourceTree = "<group>"; };
+		FA1EC5BA49523E2E9DDAF0DE98DE4D5C /* Pods-QLIconFont_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLIconFont_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		679749A347224822D23B26FC54C72E9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7CF691EC00866BEC7057B46DC9785F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9075E65E1D51357169FEB0961A00340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5748F41C4D660B801D9A5E4B94DA1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23EDD222D03ED262230DA9B956D2FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C6E047C3BAF250B1B72107046E6ADCD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01733638194BEF1CA58D3D3A6DDC7252 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B763A35CE62D467843A0B2D13D30E99 /* QLIconFont */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		043931DBA1129B80B073033A3FAAD9A4 /* Pods-QLIconFont_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B80AF4B0F310823F41C0431CAAF9F9F1 /* Pods-QLIconFont_Tests.modulemap */,
+				78529CF3961CDFD4A8EE6C2034CD25D8 /* Pods-QLIconFont_Tests-acknowledgements.markdown */,
+				1B81F45D6273083488F0A7DB31C44DC8 /* Pods-QLIconFont_Tests-acknowledgements.plist */,
+				47C8CD6D77794048A2CDC5761E81D2B2 /* Pods-QLIconFont_Tests-dummy.m */,
+				7B43F683462CE2C2D3357EC589EC1F54 /* Pods-QLIconFont_Tests-Info.plist */,
+				A5432DC4210535A39E38858CCD0DF7AB /* Pods-QLIconFont_Tests-umbrella.h */,
+				4DD283EE0EAE3460AA24FFBAC26CD7D3 /* Pods-QLIconFont_Tests.debug.xcconfig */,
+				E3CDE0092CC838F5CC1C661830819D3B /* Pods-QLIconFont_Tests.release.xcconfig */,
+			);
+			name = "Pods-QLIconFont_Tests";
+			path = "Target Support Files/Pods-QLIconFont_Tests";
+			sourceTree = "<group>";
+		};
+		1308B529ADA7C40617554DA07274652C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				156F7F437D2F892106320C9D42B6CD4C /* Pods-QLIconFont_Example */,
+				043931DBA1129B80B073033A3FAAD9A4 /* Pods-QLIconFont_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		156F7F437D2F892106320C9D42B6CD4C /* Pods-QLIconFont_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AEF2E415A3D2ED5EC6D6E3744E5EE1E7 /* Pods-QLIconFont_Example.modulemap */,
+				12D6F9EB83D40131FD2D066581308D9C /* Pods-QLIconFont_Example-acknowledgements.markdown */,
+				6D64AA99BD60B0A4FE8EEB62272B1F53 /* Pods-QLIconFont_Example-acknowledgements.plist */,
+				E6AD05B9D139972EF98C4DD0E4730114 /* Pods-QLIconFont_Example-dummy.m */,
+				3A33D249CC64CBE14A3AAFB2ADD64E36 /* Pods-QLIconFont_Example-frameworks.sh */,
+				FA1EC5BA49523E2E9DDAF0DE98DE4D5C /* Pods-QLIconFont_Example-Info.plist */,
+				1199391EF85A8AE8D2214C8276312122 /* Pods-QLIconFont_Example-umbrella.h */,
+				D899FE090A6BD4DCE7F752D367F8BE91 /* Pods-QLIconFont_Example.debug.xcconfig */,
+				D25A7445BDC425C8478DE0033084709D /* Pods-QLIconFont_Example.release.xcconfig */,
+			);
+			name = "Pods-QLIconFont_Example";
+			path = "Target Support Files/Pods-QLIconFont_Example";
+			sourceTree = "<group>";
+		};
+		24BCE0EAD4BB3A2DF0BA9460E0B98F2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B58F43DF6148AD70056EC47371A82A /* Pods_QLIconFont_Example.framework */,
+				A73FE3A8A62D90EC090F71B631A0803B /* Pods_QLIconFont_Tests.framework */,
+				6205EF8FE3FD1E10C4E5F5337E811209 /* QLIconFont.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		355EB3BDF2DE51B663914E19D3DAA68B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C89B84E67A8EC884A50012B1F33E64A /* QLIconFont.modulemap */,
+				9461E84924162054CBC031104848643B /* QLIconFont.xcconfig */,
+				0513696D20B7DFA3769FE7FBF932D8E9 /* QLIconFont-dummy.m */,
+				9F3C1C793D25AC1FA69F946323574CF8 /* QLIconFont-Info.plist */,
+				A3E5ACD6EC48239383A9108D33B1A7FD /* QLIconFont-prefix.pch */,
+				0BC420C549F1B2472C48115F3006BCF6 /* QLIconFont-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QLIconFont";
+			sourceTree = "<group>";
+		};
+		35F70691EFD3E41EEFA4B70DB274CE82 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D744302C2080AA84F385A47D47A0098B /* LICENSE */,
+				8D600CC9F67B7E994BCE251B8B9B961F /* QLIconFont.podspec */,
+				5AB631B2D95570ACAAA851A3956CBA32 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8B763A35CE62D467843A0B2D13D30E99 /* QLIconFont */ = {
+			isa = PBXGroup;
+			children = (
+				6762F4E43C35A8014983CC7E7B24635B /* QLIconFont.h */,
+				B0BBF8094D9F6A090D7C652DF255A811 /* QLIconFontGenerater.h */,
+				3F532C56D7991CBA5CEDC00C0ED89FD6 /* QLIconFontGenerater.m */,
+				6889B6562ECE15EDA7541AC68B212A94 /* QLIconFontInfo.h */,
+				EF3B9C0BD5CFAF6F931B317C0915DACC /* QLIconFontInfo.m */,
+				B40CF4DE9F70F429944F52C0E9939763 /* UIButton+QLIconFont.h */,
+				500164CB8BEF0C1F16765920CF0259C7 /* UIButton+QLIconFont.m */,
+				3CE57D7092F8D507856ABD39AC1B9CB7 /* UIImage+QLIconFont.h */,
+				BEBE874AC6C8E27C813ACD1EC84C477B /* UIImage+QLIconFont.m */,
+				B819D370C0B9034942C4385B7A6AE170 /* UILabel+QLIconFont.h */,
+				A2F728912031BD645E9B024CDBCBEE20 /* UILabel+QLIconFont.m */,
+				35F70691EFD3E41EEFA4B70DB274CE82 /* Pod */,
+				355EB3BDF2DE51B663914E19D3DAA68B /* Support Files */,
+			);
+			name = QLIconFont;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				01733638194BEF1CA58D3D3A6DDC7252 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				24BCE0EAD4BB3A2DF0BA9460E0B98F2C /* Products */,
+				1308B529ADA7C40617554DA07274652C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5FD9FFE887F95EF16F981916458BA138 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3953C4E92D37FE82811DF1D734467C64 /* Pods-QLIconFont_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0A72F78AE08936C40243FAB8DCFEFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBAAA924C5012E89F2487FE9D489EDC /* Pods-QLIconFont_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF16A71670F346325E80E4B1B95C6598 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5BBDFBDEE05C82DF90F2EA18AADED7 /* QLIconFont-umbrella.h in Headers */,
+				331E9DD628240D8846A0EC4C42A4DF7E /* QLIconFont.h in Headers */,
+				AF8DB57D73F6050F0297D599D9C8054E /* QLIconFontGenerater.h in Headers */,
+				973A4E141C60054623032E51F13A3526 /* QLIconFontInfo.h in Headers */,
+				9DA951B5563451F59334CA120D659382 /* UIButton+QLIconFont.h in Headers */,
+				8577C880E93F9100A63AF8776CFF7401 /* UIImage+QLIconFont.h in Headers */,
+				45AC56A0F904FA59A4D50D7C73DE038C /* UILabel+QLIconFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		586F8B1F807B309A5A3011B3535ABC68 /* QLIconFont */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A151335F98B02959CE87B2A1B39DC962 /* Build configuration list for PBXNativeTarget "QLIconFont" */;
+			buildPhases = (
+				AF16A71670F346325E80E4B1B95C6598 /* Headers */,
+				E2CEA6A9AF51ABDAA96A822EA0726FF0 /* Sources */,
+				E23EDD222D03ED262230DA9B956D2FB9 /* Frameworks */,
+				565B8AF3C6F371D9A4DC10EF9C552F4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QLIconFont;
+			productName = QLIconFont;
+			productReference = 6205EF8FE3FD1E10C4E5F5337E811209 /* QLIconFont.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE21B8424C6133BFC529B0CB2591FEBD /* Pods-QLIconFont_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 735EABF9CD28E3A45256C91145BA668F /* Build configuration list for PBXNativeTarget "Pods-QLIconFont_Example" */;
+			buildPhases = (
+				5FD9FFE887F95EF16F981916458BA138 /* Headers */,
+				368D71A0CBFC0DF9E7376F5A89BFD95B /* Sources */,
+				679749A347224822D23B26FC54C72E9C /* Frameworks */,
+				B28230D111364C671EFB128E655F2F4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C65DBE85FE96D3C2711BB62E8DDC24AB /* PBXTargetDependency */,
+			);
+			name = "Pods-QLIconFont_Example";
+			productName = "Pods-QLIconFont_Example";
+			productReference = 40B58F43DF6148AD70056EC47371A82A /* Pods_QLIconFont_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0506ADAF2BAF5D4C765FE309311B9C6 /* Pods-QLIconFont_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8EDB24D6757EC19A886D622AFA2483 /* Build configuration list for PBXNativeTarget "Pods-QLIconFont_Tests" */;
+			buildPhases = (
+				AE0A72F78AE08936C40243FAB8DCFEFB /* Headers */,
+				200365CCB673087BF17A8CC3E321148D /* Sources */,
+				B9075E65E1D51357169FEB0961A00340 /* Frameworks */,
+				211A4FCDAECE20F2F712DC20B97A9DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BD3D7BC054E5B73B067F62E276265C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-QLIconFont_Tests";
+			productName = "Pods-QLIconFont_Tests";
+			productReference = A73FE3A8A62D90EC090F71B631A0803B /* Pods_QLIconFont_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 24BCE0EAD4BB3A2DF0BA9460E0B98F2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE21B8424C6133BFC529B0CB2591FEBD /* Pods-QLIconFont_Example */,
+				C0506ADAF2BAF5D4C765FE309311B9C6 /* Pods-QLIconFont_Tests */,
+				586F8B1F807B309A5A3011B3535ABC68 /* QLIconFont */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		211A4FCDAECE20F2F712DC20B97A9DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		565B8AF3C6F371D9A4DC10EF9C552F4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B28230D111364C671EFB128E655F2F4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		200365CCB673087BF17A8CC3E321148D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4577076771DDD58E579C67402920065B /* Pods-QLIconFont_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368D71A0CBFC0DF9E7376F5A89BFD95B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F54EBEB22505BF391D7BDE8788BEA1A /* Pods-QLIconFont_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CEA6A9AF51ABDAA96A822EA0726FF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				718CB6CA592DF62BC0B2EFA79FA6F534 /* QLIconFont-dummy.m in Sources */,
+				7C1899292005A7D1780859E43C64DD68 /* QLIconFontGenerater.m in Sources */,
+				43AEAAB6CDB5C61E4543611C89FF1184 /* QLIconFontInfo.m in Sources */,
+				0E1D6AD421BAD00E7DC655863A487046 /* UIButton+QLIconFont.m in Sources */,
+				C8F663926916A5B6AD535B82BA67ACCE /* UIImage+QLIconFont.m in Sources */,
+				A56C90814FC51D848597A4F85D5358C2 /* UILabel+QLIconFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BD3D7BC054E5B73B067F62E276265C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QLIconFont_Example";
+			target = BE21B8424C6133BFC529B0CB2591FEBD /* Pods-QLIconFont_Example */;
+			targetProxy = 328130D09D59DFE90836B7B7BC9D0AEC /* PBXContainerItemProxy */;
+		};
+		C65DBE85FE96D3C2711BB62E8DDC24AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QLIconFont;
+			target = 586F8B1F807B309A5A3011B3535ABC68 /* QLIconFont */;
+			targetProxy = 3A5EFF3C126DC4343CA402AE9372D44F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		112FD25A1C0CF1FED04E95AFC4EDEEBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3CDE0092CC838F5CC1C661830819D3B /* Pods-QLIconFont_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLIconFont_Tests/Pods-QLIconFont_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLIconFont_Tests/Pods-QLIconFont_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B4E085126AB2257403BE1A615112F69E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD283EE0EAE3460AA24FFBAC26CD7D3 /* Pods-QLIconFont_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLIconFont_Tests/Pods-QLIconFont_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLIconFont_Tests/Pods-QLIconFont_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B588A626BC4B619E625E975D89F1028A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9461E84924162054CBC031104848643B /* QLIconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QLIconFont/QLIconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QLIconFont/QLIconFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QLIconFont/QLIconFont.modulemap";
+				PRODUCT_MODULE_NAME = QLIconFont;
+				PRODUCT_NAME = QLIconFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C69DEA7E8913F72202A8E88F966B5807 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25A7445BDC425C8478DE0033084709D /* Pods-QLIconFont_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLIconFont_Example/Pods-QLIconFont_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLIconFont_Example/Pods-QLIconFont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D229084979B1057EA63D924032EE0908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9461E84924162054CBC031104848643B /* QLIconFont.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QLIconFont/QLIconFont-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QLIconFont/QLIconFont-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QLIconFont/QLIconFont.modulemap";
+				PRODUCT_MODULE_NAME = QLIconFont;
+				PRODUCT_NAME = QLIconFont;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2A737F4BE8435667D9D28C1A20F9358 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D899FE090A6BD4DCE7F752D367F8BE91 /* Pods-QLIconFont_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QLIconFont_Example/Pods-QLIconFont_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QLIconFont_Example/Pods-QLIconFont_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		735EABF9CD28E3A45256C91145BA668F /* Build configuration list for PBXNativeTarget "Pods-QLIconFont_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2A737F4BE8435667D9D28C1A20F9358 /* Debug */,
+				C69DEA7E8913F72202A8E88F966B5807 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A151335F98B02959CE87B2A1B39DC962 /* Build configuration list for PBXNativeTarget "QLIconFont" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B588A626BC4B619E625E975D89F1028A /* Debug */,
+				D229084979B1057EA63D924032EE0908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8EDB24D6757EC19A886D622AFA2483 /* Build configuration list for PBXNativeTarget "Pods-QLIconFont_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4E085126AB2257403BE1A615112F69E /* Debug */,
+				112FD25A1C0CF1FED04E95AFC4EDEEBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

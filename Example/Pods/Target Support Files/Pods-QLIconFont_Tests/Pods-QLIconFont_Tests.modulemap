@@ -1,0 +1,6 @@
+framework module Pods_QLIconFont_Tests {
+  umbrella header "Pods-QLIconFont_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

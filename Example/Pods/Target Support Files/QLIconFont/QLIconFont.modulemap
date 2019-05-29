@@ -1,0 +1,6 @@
+framework module QLIconFont {
+  umbrella header "QLIconFont-umbrella.h"
+
+  export *
+  module * { export * }
+}
