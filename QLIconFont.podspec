@@ -18,8 +18,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/burtworld/QLIconFont.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "QLIconFont/Classes/**/*.{h,m}"
+  s.exclude_files = "QLIconFont/Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Asserts/*"
+  s.resources = "QLIconFont/Asserts/*"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
